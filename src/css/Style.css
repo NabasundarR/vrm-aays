@@ -1,0 +1,690 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  #myTable{
+    width: 100%;
+  }
+  
+  .NavBar{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .nav_header{
+    color: white;
+    width: 96%;
+    height: 100%;
+    display: block;
+    margin: auto;
+  }
+  .nav_header_item_div{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .common_bg_color{
+    background-color: black;
+  }
+  .item_bar{
+    color: white;
+  }
+  .nav_header_item{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+  
+    width: 100%;
+  
+  }
+  .navItems{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    grid-gap: 2rem;
+  }
+  ._navItems{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    grid-gap: 6rem;
+  }
+  .logoImg{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    grid-gap: 3rem;
+  }
+  .profileCircle{
+    width: 40px;
+    height: 40px;
+    background: lightgray;
+    border-radius: 100%;
+  }
+  .profileDetails{
+    display: grid;
+  }
+  .sideNav{
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 74px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    
+    padding-top: 60px;
+  }
+  .homeContent{
+    width: 98%;
+    display: block;
+    margin: auto;
+    background-color: #eee;
+    height: 100vh;
+    border: 2px solid red;
+  }
+  #main{
+      transition: margin-left .5s;
+      border: 2px solid gray;
+      margin: auto;
+      display: block;
+      margin-left: 85px;
+      margin-top: 80px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      text-align: left;
+      padding:2rem;
+      height: 88.5vh;
+      overflow: hidden;
+      overflow-y: auto;
+  
+  }
+  .vender_Risk_Management_System{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  input[type="text" i] {
+    padding: revert;
+  }
+  .SearchBox{
+      height: 48px;
+      display: grid;
+      align-items: center;
+      padding-left: 10px !important;
+      width: 350px;
+      padding-top: 0px !important;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border: 2px solid #777 ;
+      border-right: none;
+      font-size: 18px;
+      outline: none;
+  }
+  .Search_section{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .btn_search{
+    
+    height: 48px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    padding-top: 8px;
+    border-color:#777 ;
+    outline: none;
+    border-width: 2px;
+  }
+  .searchBarSections{
+      display: grid;
+      align-items: center;
+      justify-content: space-between;
+      grid-template-columns: 60% 40%;
+  }
+  
+  .CardSections{
+    margin-top: 2rem;
+  }
+  .CardBox{
+    width: 300px;
+    height: 150px;
+    border: 2px solid #777;
+    border-radius: 10px;
+    background-color: #777;
+    color: white;
+  }
+  .CardSections_1{
+    display: flex;
+    grid-gap: 2rem;
+  }
+  .CardBox_text{
+    text-align: left;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+  }
+  .CardBox_text_{
+    font-size: 20px;
+  }
+  .Number_of_Venders{
+    background-color: aqua;
+  }
+  .CardBox_1{
+    width: 300px;
+    height: 150px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background-color: #eee;
+    color: #777;
+  }
+  .PBIReport{
+    margin-top: 4rem;
+  }
+  
+  .IfreamCls{
+    width: 100%;
+    height: 750px;
+    border: 2px solid #777;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .ProfileInfo{
+    display: grid;
+  }
+  
+  td,th {
+   
+    padding: 1rem;
+  }
+  
+  td{
+    font-weight: 700;
+  }
+  
+  tr,td,th{
+    border: 2px solid #777;
+   
+  }
+  table{
+    
+  }
+  .Basic_Informations{
+    font-size: 24px;
+    margin-top: 2rem;
+    color: #777;
+  }
+  .BasicInfoSections{
+    margin-top: 1rem;
+    color: #777;
+  }
+  .hideElement {
+    display: none;
+  }
+  th{
+    color: #111;
+  }
+  td{
+    color: #777;
+  }
+  .dec_text{
+    border: 2px solid #777;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+  }
+  .ContactInfo{
+    display: grid;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #Contect_info td{
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 2rem;
+   
+  }
+  .ActiveContact{
+    
+    display: grid;
+  }
+  .Active_contact{
+    margin-top: 2rem;
+    display: grid;
+  }
+  
+  .login_body_content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .loginPage {
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  
+  }
+  
+  .bgImageClass {
+    background-image: linear-gradient(to right, rgba(37, 57, 120), rgba(53, 113, 202, 0.3)), url(../img/bg_1.avif);
+  }
+  
+  .textAlign {
+    text-align: left;
+  }
+  
+  .MarsLogo {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    display: grid;
+  }
+  
+  .login_info {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .bgColor{
+    background-color: #253978 !important;
+  }
+  .activeHeader{
+    width: 100%;
+  }
+  
+  .leftTable{
+    float: left;
+    border: none;
+  }
+  .rightTable{
+    float: right;
+    border: none;
+  }
+  .leftTable_1{
+    
+    border: none;
+  }
+  .rightTable_1{
+   
+    border: none;
+  }
+  .btn_comm{
+    background-color: #777;
+    padding: 1rem;
+    color: white;
+    border-radius: 40px;
+  }
+  
+  #ActiveContact th{
+    width: fit-content;
+  }
+  #Technical_Informations th{
+    width: fit-content;
+  }
+  .sideNavMenu{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+  }
+  .sideNavMenu_grid{
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+  .items_menu{
+    color: white;
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+    font-size: 24px;
+  }
+  .item_menuText{
+    display: none;
+  }
+  .Search_bar{
+    width: 100%;
+    height: 100px;
+    background-color: #253978;
+    color: white;
+  }
+  .tech_border_right{
+    border-right: 0px !important ;
+  }
+  .tech_border_left{
+    border-left:0px ;
+    text-align: right;
+  }
+
+  .charts_diagram{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+    justify-content: center;
+    align-items: baseline;
+    grid-gap: 1rem;
+  }
+  
+  .listItem_name{
+    grid-gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 0px solid #eee;
+    padding: 2.5rem;
+    display: grid;
+    align-items: center;
+    background-color: #eee;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .error_message{
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .Click_here{
+    color: blue;
+  }
+  
+  #myTable1{
+    width: 1000px;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+  }
+  .table_class{
+    width: auto !important;
+  }
+
+  .Userlisting{
+    grid-template-columns: repeat(3,30%);
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  
+  
+  .Userlisting_items a:hover{
+    background: transparent !important;
+  }
+  a:hover{
+    background: transparent !important;
+  }
+  
+  .pathDisplay{
+    display: flex;
+    grid-gap: 10px;
+  }
+  
+  #NoDataAvialable{
+    display: none;
+  }
+  .Not_found{
+    padding: 14px;
+  }
+
+  .Print_btn{
+    width: 100%;
+    padding: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: none;
+    background-color: #253978;
+    color: white;
+    border-radius: 6px;
+
+  }
+  .Search_sectionnew{
+    display: none !important;
+  }
+   #hoverDisplay:hover{
+    background-color: lightgray;
+    padding-top: 0px;
+   }
+   .RiskAnalysis_sections{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-gap:3rem;
+    justify-content: left;
+
+   }
+   .Security_Rating_Score{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+   }
+   
+  
+
+   .CardBox_details {
+    width: 400px;
+    height: 255px;
+    border: 0px solid #777;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+}
+
+.CardBox_details_1 {
+  width: auto;
+  height: auto;
+  border: 0px solid #777;
+  border-radius: 10px;
+  background-color: white;
+  color: white;
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.items_card_risk{
+  border: 2px solid #777;
+  border-radius: 10px;
+}
+.items_card_risk_1{
+  background-color: #eee;
+}
+
+.speedometer{
+  width: 100% !important;
+  height: 100% !important;
+}
+.btn_Print{
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+  height: 40px;
+  display: grid;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #777;
+  color: white;
+  border: none;
+}
+.Print_flex{
+    height: 100%;
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.List_users_page{
+  display: grid;
+  grid-gap: 10px;
+}
+
+.float_right{
+  float: right;
+}
+.MutipleSeclections_div{
+  position: relative;
+}
+#MultiCheckbox_div{
+  width: auto;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  right: 3px;
+  display: none;
+  box-shadow: 0px 10px 34px rgba(0, 0, 0,0.9);
+  border-radius: 5px;
+  margin-top: 5px;
+  color: #777;
+  font-weight: 600;
+  min-width: 220px;
+  max-width: 230px;
+}
+#checkboxes{
+  display: grid;
+  grid-gap: 0px;
+}
+#checkboxes label{
+ padding: 18px;
+ display: flex;
+ grid-gap: 10px;
+ font-size: 14px;
+ align-items: center;
+ height: 100%;
+ border: 1px solid #eee;
+ border-top: none;
+ 
+}
+.item_input{
+  padding-right: 10px;
+}
+.Print_rep{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #253978;
+  background: transparent;
+  border: none;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: #777;
+}
+
+
+.tooltip {  
+  position: absolute;
+  font-weight: bold;
+  font-size: 24px;
+  border: 5px solid #5494db;
+  padding: 10px 15px;
+  background-color: red;
+  width: 15vw;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.tooltip-top::before {
+  content: '';
+  position: absolute;
+  display: block;    
+  width: 0px;        
+  left: 50%;
+  top: 0;
+  border: 12px solid transparent;
+  border-top: 0;
+  border-bottom: 12px solid #777;
+  transform: translate(80%, calc(-100% + 0px));
+}
+
+.log_pannel{
+  color: #777;
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  background-color: #eee;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid #777;
+  z-index: -1;
+  width: auto;
+  padding: 5px;
+  padding-left:2rem ;
+  padding-right: 2rem;
+
+
+}
+
+
+.loading_screen{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0,0.2);
+}
+.loading_alignment{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+
+.logoutCss {
+  position: absolute;
+  bottom: 113px;
+  cursor: pointer;
+}
+.das_services{
+  font-weight: 700;
+  color: #777;
+}
+  
+  
